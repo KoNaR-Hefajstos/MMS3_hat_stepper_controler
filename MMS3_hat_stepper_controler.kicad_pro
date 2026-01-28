@@ -465,7 +465,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "MMS2_hat_template_small.kicad_pro",
+    "filename": "MMS3_hat_stepper_controler.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -894,6 +894,54 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Output Voltage",
+          "name": "Output Voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Dropout Voltage",
+          "name": "Dropout Voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Feature",
+          "name": "Feature",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Number Of Outputs",
+          "name": "Number Of Outputs",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Output Current",
+          "name": "Output Current",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Power Supply Rejection Ratio (Psrr)",
+          "name": "Power Supply Rejection Ratio (Psrr)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Output Polarity",
+          "name": "Output Polarity",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Output Type",
+          "name": "Output Type",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -970,7 +1018,7 @@
     ],
     [
       "c6fe6645-c1eb-4317-9e6f-134a73c9fa05",
-      "Power Stuff"
+      "Buck Regulator"
     ]
   ],
   "text_variables": {

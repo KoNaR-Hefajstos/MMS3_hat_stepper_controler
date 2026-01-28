@@ -542,39 +542,40 @@
 			(embedded_fonts no)
 		)
 	)
-	(junction
-		(at 135.89 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1dd26557-6368-4665-a85b-3afbb8cdf53e")
+	(text "If you remove this, \nadd direct connection betwen Vin and BRD_VIN"
+		(exclude_from_sim no)
+		(at 142.748 127 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 255 10 0 1)
+			)
+		)
+		(uuid "9bc41689-3990-41db-a116-8b280f8b0166")
 	)
 	(junction
-		(at 140.97 102.87)
+		(at 152.4 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "35a0aa31-3770-4050-9ec4-46be2cc29d9c")
 	)
 	(junction
-		(at 113.03 118.11)
+		(at 152.4 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7347011f-81a9-4703-88fc-23c201e2c389")
+		(uuid "7acc3c6f-7431-4cb7-86e2-feced733a79b")
 	)
 	(junction
-		(at 116.84 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d9596ff6-d60c-4171-ac70-9304f922d73a")
-	)
-	(junction
-		(at 146.05 102.87)
+		(at 157.48 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fbc14732-6bee-4282-ab64-9bb42b267752")
 	)
 	(wire
 		(pts
-			(xy 139.7 118.11) (xy 135.89 118.11)
+			(xy 157.48 101.6) (xy 152.4 101.6)
 		)
 		(stroke
 			(width 0)
@@ -584,17 +585,17 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 114.3) (xy 113.03 114.3)
+			(xy 125.73 101.6) (xy 152.4 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "12e61dfa-c301-4976-9899-a61e2dde14e5")
+		(uuid "08f3c8c0-99a3-40d6-92da-d5d60515665d")
 	)
 	(wire
 		(pts
-			(xy 135.89 114.3) (xy 134.62 114.3)
+			(xy 152.4 97.79) (xy 146.05 97.79)
 		)
 		(stroke
 			(width 0)
@@ -604,17 +605,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 118.11) (xy 113.03 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a053ad3-29c8-4700-938c-cfab9fb43a44")
-	)
-	(wire
-		(pts
-			(xy 140.97 111.76) (xy 140.97 102.87)
+			(xy 152.4 95.25) (xy 152.4 86.36)
 		)
 		(stroke
 			(width 0)
@@ -624,7 +615,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 114.3) (xy 88.9 114.3)
+			(xy 125.73 97.79) (xy 120.65 97.79)
 		)
 		(stroke
 			(width 0)
@@ -634,7 +625,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 102.87) (xy 146.05 102.87)
+			(xy 152.4 86.36) (xy 157.48 86.36)
 		)
 		(stroke
 			(width 0)
@@ -644,7 +635,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 102.87) (xy 152.4 102.87)
+			(xy 157.48 86.36) (xy 163.83 86.36)
 		)
 		(stroke
 			(width 0)
@@ -654,7 +645,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 118.11) (xy 90.17 114.3)
+			(xy 125.73 101.6) (xy 125.73 97.79)
 		)
 		(stroke
 			(width 0)
@@ -664,7 +655,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 111.76) (xy 88.9 111.76)
+			(xy 125.73 95.25) (xy 120.65 95.25)
 		)
 		(stroke
 			(width 0)
@@ -674,7 +665,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 99.06) (xy 146.05 102.87)
+			(xy 157.48 82.55) (xy 157.48 86.36)
 		)
 		(stroke
 			(width 0)
@@ -684,7 +675,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 111.76) (xy 140.97 111.76)
+			(xy 146.05 95.25) (xy 152.4 95.25)
 		)
 		(stroke
 			(width 0)
@@ -694,27 +685,17 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 102.87) (xy 93.98 102.87)
+			(xy 157.48 101.6) (xy 157.48 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "90e24868-f075-43f0-b3f2-f722b0e752b4")
+		(uuid "8ffaeaf7-7c51-4fd7-a89d-1ad16cc1e4fb")
 	)
 	(wire
 		(pts
-			(xy 113.03 118.11) (xy 90.17 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94e7887d-cd72-4771-a47e-c980d4592117")
-	)
-	(wire
-		(pts
-			(xy 160.02 102.87) (xy 166.37 102.87)
+			(xy 171.45 86.36) (xy 177.8 86.36)
 		)
 		(stroke
 			(width 0)
@@ -724,7 +705,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 102.87) (xy 116.84 102.87)
+			(xy 125.73 86.36) (xy 152.4 86.36)
 		)
 		(stroke
 			(width 0)
@@ -734,7 +715,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 118.11) (xy 135.89 114.3)
+			(xy 152.4 101.6) (xy 152.4 97.79)
 		)
 		(stroke
 			(width 0)
@@ -744,27 +725,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 102.87) (xy 116.84 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc2a1095-dcd3-4409-a6c2-b881043a7383")
-	)
-	(wire
-		(pts
-			(xy 116.84 111.76) (xy 111.76 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb066509-b13b-4f59-8441-92cff38575f2")
-	)
-	(wire
-		(pts
-			(xy 93.98 102.87) (xy 93.98 111.76)
+			(xy 125.73 86.36) (xy 125.73 95.25)
 		)
 		(stroke
 			(width 0)
@@ -772,96 +733,9 @@
 		)
 		(uuid "fa6da35b-e498-4a67-8716-bce39eed1ba1")
 	)
-	(wire
-		(pts
-			(xy 135.89 118.11) (xy 113.03 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fea0fdd4-9cdc-4ffc-857f-5ae3081d61ce")
-	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 106.68 114.3 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "07f04aac-591b-4043-9646-93d5f95f5595")
-		(property "Reference" "J3"
-			(at 106.68 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AMASS XT60 Male"
-			(at 106.68 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "XT60:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal"
-			(at 106.68 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 106.68 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 106.68 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C98732"
-			(at 106.68 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c9a7aed3-f2ea-4cc5-b3ae-7142cbf6a820")
-		)
-		(pin "2"
-			(uuid "96cdfef8-9165-4638-8476-d74b85a1d521")
-		)
-		(instances
-			(project "MMS2_hat_template_small"
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/f11c3b61-ae6a-4858-9d37-bbf426f44fb0"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 83.82 114.3 180)
+		(at 115.57 97.79 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -869,8 +743,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ff6488c-dd9e-444f-afe8-242c0dfa59ef")
-		(property "Reference" "J2"
-			(at 83.82 105.41 0)
+		(property "Reference" "J4"
+			(at 115.57 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -878,7 +752,7 @@
 			)
 		)
 		(property "Value" "AMASS XT60 Male"
-			(at 83.82 107.95 0)
+			(at 115.57 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -886,7 +760,7 @@
 			)
 		)
 		(property "Footprint" "XT60:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal"
-			(at 83.82 114.3 0)
+			(at 115.57 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -895,7 +769,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 83.82 114.3 0)
+			(at 115.57 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -904,7 +778,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 83.82 114.3 0)
+			(at 115.57 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -913,7 +787,7 @@
 			)
 		)
 		(property "LCSC" "C98732"
-			(at 83.82 114.3 0)
+			(at 115.57 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -930,7 +804,7 @@
 		(instances
 			(project "MMS2_hat_template_small"
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/f11c3b61-ae6a-4858-9d37-bbf426f44fb0"
-					(reference "J2")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -938,15 +812,15 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 166.37 102.87 270)
+		(at 177.8 86.36 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "2fe0878f-0a1a-4ca0-a3be-a432f630b775")
-		(property "Reference" "#PWR031"
-			(at 162.56 102.87 0)
+		(property "Reference" "#PWR041"
+			(at 173.99 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -955,7 +829,7 @@
 			)
 		)
 		(property "Value" "BRD_VIN"
-			(at 173.228 102.87 90)
+			(at 184.658 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -963,7 +837,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 166.37 102.87 0)
+			(at 177.8 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -972,7 +846,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 102.87 0)
+			(at 177.8 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -981,7 +855,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 166.37 102.87 0)
+			(at 177.8 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -995,7 +869,7 @@
 		(instances
 			(project "MMS2_hat_template_small"
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/f11c3b61-ae6a-4858-9d37-bbf426f44fb0"
-					(reference "#PWR031")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -1003,7 +877,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 129.54 114.3 180)
+		(at 140.97 97.79 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1011,8 +885,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b4bf1a3-9299-4a0f-a632-011cd216f9dc")
-		(property "Reference" "J7"
-			(at 129.54 105.41 0)
+		(property "Reference" "J5"
+			(at 140.97 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1020,7 +894,7 @@
 			)
 		)
 		(property "Value" "AMASS XT60 Female"
-			(at 129.54 107.95 0)
+			(at 140.97 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1028,7 +902,7 @@
 			)
 		)
 		(property "Footprint" "XT60:AMASS_XT60PW-F_1x02_P7.20mm_Horizontal"
-			(at 129.54 114.3 0)
+			(at 140.97 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1037,7 +911,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 129.54 114.3 0)
+			(at 140.97 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1046,7 +920,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 129.54 114.3 0)
+			(at 140.97 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1055,7 +929,7 @@
 			)
 		)
 		(property "LCSC" "C428722"
-			(at 129.54 114.3 0)
+			(at 140.97 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1072,93 +946,7 @@
 		(instances
 			(project "MMS2_hat_template_small"
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/f11c3b61-ae6a-4858-9d37-bbf426f44fb0"
-					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 156.21 102.87 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4682ebf8-5d73-4ff7-b3c4-f78a1979f242")
-		(property "Reference" "D1"
-			(at 156.21 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 156.21 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 156.21 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 156.21 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 156.21 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 156.21 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 156.21 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c83f9b45-bfb9-47ec-b149-25a7ee23a9ce")
-		)
-		(pin "2"
-			(uuid "c4b79806-aef9-4621-8741-46727b7b0257")
-		)
-		(instances
-			(project ""
-				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/f11c3b61-ae6a-4858-9d37-bbf426f44fb0"
-					(reference "D1")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -1166,15 +954,15 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 146.05 99.06 0)
+		(at 157.48 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "482f3d78-37dc-49ed-95b2-aacea4eb394d")
-		(property "Reference" "#PWR034"
-			(at 146.05 102.87 0)
+		(property "Reference" "#PWR039"
+			(at 157.48 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1183,7 +971,7 @@
 			)
 		)
 		(property "Value" "Vin"
-			(at 146.05 95.25 0)
+			(at 157.48 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1191,7 +979,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 146.05 99.06 0)
+			(at 157.48 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1200,7 +988,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 99.06 0)
+			(at 157.48 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1209,7 +997,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 146.05 99.06 0)
+			(at 157.48 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1223,7 +1011,102 @@
 		(instances
 			(project "MMS2_hat_template_small"
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/f11c3b61-ae6a-4858-9d37-bbf426f44fb0"
-					(reference "#PWR034")
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 167.64 86.36 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6cc9fcc7-4406-440f-88cc-3556600cace5")
+		(property "Reference" "D2"
+			(at 167.64 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MBRD10100CTTR"
+			(at 167.64 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 167.64 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 167.64 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 167.64 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C135494"
+			(at 167.64 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3c44c87b-7874-4072-bd82-9bc22b62c94b")
+		)
+		(pin "1"
+			(uuid "981ccfc7-26a9-4273-b14c-95d7e010e7b0")
+		)
+		(instances
+			(project "MMS3_hat_stepper_controler"
+				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/f11c3b61-ae6a-4858-9d37-bbf426f44fb0"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -1231,7 +1114,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 139.7 118.11 0)
+		(at 157.48 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1239,8 +1122,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eebdd2e0-7c94-4a1e-9d2e-c9e02d368a57")
-		(property "Reference" "#PWR035"
-			(at 139.7 124.46 0)
+		(property "Reference" "#PWR040"
+			(at 157.48 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1249,7 +1132,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 139.7 123.19 0)
+			(at 157.48 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1257,7 +1140,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 118.11 0)
+			(at 157.48 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1266,7 +1149,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 118.11 0)
+			(at 157.48 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1275,7 +1158,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 139.7 118.11 0)
+			(at 157.48 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1289,7 +1172,7 @@
 		(instances
 			(project ""
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/f11c3b61-ae6a-4858-9d37-bbf426f44fb0"
-					(reference "#PWR035")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
