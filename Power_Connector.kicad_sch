@@ -1043,7 +1043,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
 			(at 167.64 86.36 0)
 			(effects
 				(font
