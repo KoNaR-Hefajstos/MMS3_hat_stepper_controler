@@ -1446,7 +1446,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d629e1f-5a5d-48d4-b681-db078f914caf")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR046"
 			(at 176.53 73.66 0)
 			(effects
 				(font
@@ -1496,7 +1496,7 @@
 		(instances
 			(project "MMS2_hat_template_small"
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/56050d79-5900-47d6-893d-3da0e8bf5810"
-					(reference "#PWR045")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -1512,7 +1512,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3af1a401-84c4-4a9b-a34e-73603d3639c7")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR045"
 			(at 176.53 58.42 0)
 			(effects
 				(font
@@ -1562,7 +1562,7 @@
 		(instances
 			(project "MMS2_hat_template_small"
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/56050d79-5900-47d6-893d-3da0e8bf5810"
-					(reference "#PWR044")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -1578,7 +1578,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4189eb02-1e76-4a31-98e5-25fa57e4a209")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR044"
 			(at 154.94 99.06 0)
 			(effects
 				(font
@@ -1628,7 +1628,7 @@
 		(instances
 			(project "MMS2_hat_template_small"
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/56050d79-5900-47d6-893d-3da0e8bf5810"
-					(reference "#PWR043")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -1840,7 +1840,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d704a652-9d2a-4c6e-b6ee-6dfbbbe9d572")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR043"
 			(at 124.46 113.03 0)
 			(effects
 				(font
@@ -1890,7 +1890,7 @@
 		(instances
 			(project "MMS2_hat_template_small"
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/56050d79-5900-47d6-893d-3da0e8bf5810"
-					(reference "#PWR042")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)

@@ -147,34 +147,45 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:D"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
+		(symbol "SMC_MBRD10100CTTR:MBRD10100CTTR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "D"
-				(at 0 2.54 0)
+				(at 0 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "D"
-				(at 0 -2.54 0)
+			(property "Value" "MBRD10100CTTR"
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "SMC_MBRD10100CTTR:TO-252-3_L6.5-W5.8-P4.58-TL"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_MCC_MBRD10100CTTR_MBRD10100CTTR_C135494.html"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -183,8 +194,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
+			(property "LCSC Part" "C135494"
+				(at 0 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -192,79 +203,34 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_0_1"
+			(symbol "MBRD10100CTTR_0_1"
 				(polyline
 					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
+						(xy -2.54 1.02) (xy 0 2.54) (xy -2.54 4.32) (xy -2.54 1.02)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(polyline
 					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+						(xy -2.54 -4.06) (xy 0 -2.54) (xy -2.54 -0.76) (xy -2.54 -4.06)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(polyline
 					(pts
-						(xy 1.27 0) (xy -1.27 0)
+						(xy 0 2.54) (xy 2.54 2.54) (xy 2.54 -2.54) (xy 0 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -274,12 +240,34 @@
 						(type none)
 					)
 				)
-			)
-			(symbol "D_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
+				(polyline
+					(pts
+						(xy 0.76 1.02) (xy 0.76 0.76) (xy 0.25 0.76) (xy 0.25 4.57) (xy -0.25 4.57) (xy -0.25 4.32)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.76 -4.06) (xy 0.76 -4.32) (xy 0.25 -4.32) (xy 0.25 -0.51) (xy -0.25 -0.51) (xy -0.25 -0.76)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 2.54 0)
+					(length 5.08)
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -294,10 +282,28 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
+				(pin unspecified line
+					(at -7.62 -2.54 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 0 180)
+					(length 5.08)
+					(name "K"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -556,6 +562,12 @@
 		(uuid "9bc41689-3990-41db-a116-8b280f8b0166")
 	)
 	(junction
+		(at 161.29 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d2bd71a-1351-4969-b620-3dcc80ae66b6")
+	)
+	(junction
 		(at 152.4 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -625,6 +637,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 86.36) (xy 163.83 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "338b162d-b127-47eb-8123-b3e5e6d7cb46")
+	)
+	(wire
+		(pts
 			(xy 152.4 86.36) (xy 157.48 86.36)
 		)
 		(stroke
@@ -635,13 +657,33 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 86.36) (xy 163.83 86.36)
+			(xy 157.48 86.36) (xy 161.29 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "52a46ed5-096f-48a2-b9a6-73307da2f16a")
+	)
+	(wire
+		(pts
+			(xy 161.29 91.44) (xy 161.29 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f40cb01-f5c5-4226-bf6d-4d5ad57f026b")
+	)
+	(wire
+		(pts
+			(xy 163.83 91.44) (xy 161.29 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "667614f3-5cf2-40ee-96fc-3b53f62f395c")
 	)
 	(wire
 		(pts
@@ -695,7 +737,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 86.36) (xy 177.8 86.36)
+			(xy 179.07 88.9) (xy 185.42 88.9)
 		)
 		(stroke
 			(width 0)
@@ -738,7 +780,7 @@
 		(at 115.57 97.79 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -812,15 +854,15 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 177.8 86.36 270)
+		(at 185.42 88.9 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "2fe0878f-0a1a-4ca0-a3be-a432f630b775")
-		(property "Reference" "#PWR041"
-			(at 173.99 86.36 0)
+		(property "Reference" "#PWR042"
+			(at 181.61 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -829,7 +871,7 @@
 			)
 		)
 		(property "Value" "BRD_VIN"
-			(at 184.658 86.36 90)
+			(at 192.278 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -837,7 +879,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 86.36 0)
+			(at 185.42 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -846,7 +888,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 86.36 0)
+			(at 185.42 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -855,7 +897,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 177.8 86.36 0)
+			(at 185.42 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -869,7 +911,7 @@
 		(instances
 			(project "MMS2_hat_template_small"
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/f11c3b61-ae6a-4858-9d37-bbf426f44fb0"
-					(reference "#PWR041")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -880,7 +922,7 @@
 		(at 140.97 97.79 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -961,7 +1003,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "482f3d78-37dc-49ed-95b2-aacea4eb394d")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR040"
 			(at 157.48 86.36 0)
 			(effects
 				(font
@@ -1011,49 +1053,42 @@
 		(instances
 			(project "MMS2_hat_template_small"
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/f11c3b61-ae6a-4858-9d37-bbf426f44fb0"
-					(reference "#PWR039")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 167.64 86.36 180)
+		(lib_id "SMC_MBRD10100CTTR:MBRD10100CTTR")
+		(at 171.45 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6cc9fcc7-4406-440f-88cc-3556600cace5")
-		(property "Reference" "D2"
-			(at 167.64 80.01 0)
+		(uuid "56178d53-5941-4ff4-88ef-3a95dbd0835f")
+		(property "Reference" "D4"
+			(at 172.7201 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "MBRD10100CTTR"
-			(at 167.64 82.55 0)
+			(at 170.1801 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
-			(at 167.64 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 167.64 86.36 0)
+		(property "Footprint" "SMC_MBRD10100CTTR:TO-252-3_L6.5-W5.8-P4.58-TL"
+			(at 171.45 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1061,8 +1096,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode"
-			(at 167.64 86.36 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_MCC_MBRD10100CTTR_MBRD10100CTTR_C135494.html"
+			(at 171.45 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1070,8 +1105,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 167.64 86.36 0)
+		(property "Description" ""
+			(at 171.45 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1079,34 +1114,28 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 167.64 86.36 0)
+		(property "LCSC Part" "C135494"
+			(at 171.45 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "LCSC" "C135494"
-			(at 167.64 86.36 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3c44c87b-7874-4072-bd82-9bc22b62c94b")
 		)
 		(pin "1"
-			(uuid "981ccfc7-26a9-4273-b14c-95d7e010e7b0")
+			(uuid "beacdcef-dab0-4aa4-a7b4-658c02ef3eca")
+		)
+		(pin "2"
+			(uuid "aeba94db-3fb8-4eb7-be68-b0a2d7274d3a")
+		)
+		(pin "3"
+			(uuid "22496b64-17b5-4002-8750-f22b244196d3")
 		)
 		(instances
 			(project "MMS3_hat_stepper_controler"
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/f11c3b61-ae6a-4858-9d37-bbf426f44fb0"
-					(reference "D2")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -1122,7 +1151,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eebdd2e0-7c94-4a1e-9d2e-c9e02d368a57")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR041"
 			(at 157.48 111.76 0)
 			(effects
 				(font
@@ -1172,7 +1201,7 @@
 		(instances
 			(project ""
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/f11c3b61-ae6a-4858-9d37-bbf426f44fb0"
-					(reference "#PWR040")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)

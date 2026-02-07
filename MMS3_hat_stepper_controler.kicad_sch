@@ -612,8 +612,16 @@
 		(uuid "1294e8cc-6db1-48df-b2b9-522db6cbe0fa")
 	)
 	(no_connect
+		(at 68.58 180.34)
+		(uuid "2876d826-811a-4694-bd81-f2f0dbe73d0e")
+	)
+	(no_connect
 		(at 34.29 180.34)
 		(uuid "33cd084c-dfb1-4678-b56f-216d3482a1f8")
+	)
+	(no_connect
+		(at 53.34 180.34)
+		(uuid "e8d44453-6f2b-49a6-8c72-bc2ce7c37c74")
 	)
 	(wire
 		(pts
@@ -12945,7 +12953,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "048316d6-a057-4ba2-83ef-068bb9533692")
-		(property "Reference" "H3"
+		(property "Reference" "H5"
 			(at 115.57 170.8149 0)
 			(effects
 				(font
@@ -12993,7 +13001,7 @@
 		(instances
 			(project "MMS2_hat_template_small"
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17"
-					(reference "H3")
+					(reference "H5")
 					(unit 1)
 				)
 			)
@@ -13064,6 +13072,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 53.34 177.8 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1cfcff86-36c0-4edf-ae57-07d5aad90c4f")
+		(property "Reference" "H3"
+			(at 55.88 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M3 mount"
+			(at 55.88 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_DIN965"
+			(at 53.34 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 53.34 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "533a582e-6479-4997-bb15-cb95cc43dbda")
+		)
+		(instances
+			(project "MMS3_hat_stepper_controler"
+				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_JLCPCB-Manufacturing:Tooling Hole, PCM_JLCPCB, 1.152mm")
 		(at 123.19 171.45 0)
 		(unit 1)
@@ -13073,7 +13148,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7270eaa3-20e4-4c0f-ace2-dafd79c81abc")
-		(property "Reference" "H4"
+		(property "Reference" "H6"
 			(at 124.46 170.8149 0)
 			(effects
 				(font
@@ -13120,6 +13195,73 @@
 		)
 		(instances
 			(project "MMS2_hat_template_small"
+				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17"
+					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 68.58 177.8 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7bd59bf6-8937-42c5-a23f-c331d70886b8")
+		(property "Reference" "H4"
+			(at 71.12 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M3 mount"
+			(at 71.12 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_DIN965"
+			(at 68.58 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 68.58 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e444116b-fc18-46bd-be6c-417c6c5cea60")
+		)
+		(instances
+			(project "MMS3_hat_stepper_controler"
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17"
 					(reference "H4")
 					(unit 1)
@@ -13203,7 +13345,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9671361b-3b51-4845-94d6-a4d8cdb90b14")
-		(property "Reference" "H5"
+		(property "Reference" "H7"
 			(at 124.46 175.8949 0)
 			(effects
 				(font
@@ -13251,7 +13393,7 @@
 		(instances
 			(project "MMS2_hat_template_small"
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17"
-					(reference "H5")
+					(reference "H7")
 					(unit 1)
 				)
 			)
@@ -13349,7 +13491,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_DIN965"
 			(at 34.29 177.8 0)
 			(effects
 				(font
@@ -13416,7 +13558,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad_TopOnly"
 			(at 19.05 177.8 0)
 			(effects
 				(font
