@@ -3410,6 +3410,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 227.33 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9c0a4fb4-3e4b-4199-a013-4b9882b8507a")
 		)
@@ -3489,6 +3498,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 34.29 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ff27bd0e-62cf-4acb-8ae8-75db5c260c53")
 		)
@@ -3513,7 +3531,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "242c6c3c-6ddd-4d14-b359-13b4d35f420d")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR038"
 			(at 252.73 68.58 0)
 			(effects
 				(font
@@ -3563,7 +3581,7 @@
 		(instances
 			(project "MMS2_hat_template_small"
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/ec6d73af-72b0-4068-85fb-cca3c5143749"
-					(reference "#PWR039")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -3622,6 +3640,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 257.81 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b7affb93-e682-4057-8320-d6f86b1d9701")
 		)
@@ -3653,7 +3680,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3fff1588-55d3-4fb5-9645-c6c1ca482ffa")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR031"
 			(at 132.08 72.39 0)
 			(effects
 				(font
@@ -3703,7 +3730,7 @@
 		(instances
 			(project "MMS2_hat_template_small"
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/ec6d73af-72b0-4068-85fb-cca3c5143749"
-					(reference "#PWR032")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -3719,7 +3746,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78d2c534-4152-404e-9300-932d2c506caf")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR033"
 			(at 191.77 81.28 0)
 			(effects
 				(font
@@ -3769,7 +3796,7 @@
 		(instances
 			(project "MMS2_hat_template_small"
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/ec6d73af-72b0-4068-85fb-cca3c5143749"
-					(reference "#PWR034")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -3785,7 +3812,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "885fef55-a820-4fde-bcad-ffc4eacbd529")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR035"
 			(at 215.9 116.84 0)
 			(effects
 				(font
@@ -3835,7 +3862,7 @@
 		(instances
 			(project "MMS2_hat_template_small"
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/ec6d73af-72b0-4068-85fb-cca3c5143749"
-					(reference "#PWR036")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -3851,7 +3878,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "912d9f45-0745-4495-a87d-4ebd9b04bcc8")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR030"
 			(at 34.29 111.76 0)
 			(effects
 				(font
@@ -3901,7 +3928,7 @@
 		(instances
 			(project "MMS2_hat_template_small"
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/ec6d73af-72b0-4068-85fb-cca3c5143749"
-					(reference "#PWR031")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -3917,7 +3944,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91cfc7da-d85c-4fcb-86ed-7593fb8ff3e5")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR032"
 			(at 132.08 129.54 0)
 			(effects
 				(font
@@ -3967,7 +3994,7 @@
 		(instances
 			(project "MMS2_hat_template_small"
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/ec6d73af-72b0-4068-85fb-cca3c5143749"
-					(reference "#PWR033")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -4173,6 +4200,15 @@
 			)
 		)
 		(property "Temperature Coefficient" "±100ppm/°C"
+			(at 34.29 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 34.29 87.63 0)
 			(effects
 				(font
@@ -4404,6 +4440,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 215.9 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8be411c5-f2f0-4243-9b28-e43cf086d539")
 		)
@@ -4429,7 +4474,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc78daa1-7c1e-4dfd-8041-78f91d2ffb17")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR034"
 			(at 191.77 96.52 0)
 			(effects
 				(font
@@ -4479,7 +4524,7 @@
 		(instances
 			(project "MMS2_hat_template_small"
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/ec6d73af-72b0-4068-85fb-cca3c5143749"
-					(reference "#PWR035")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -4495,7 +4540,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "de5d8fca-b9e5-4e54-a8b9-7490d75ab6f1")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR037"
 			(at 234.95 66.04 0)
 			(effects
 				(font
@@ -4545,7 +4590,7 @@
 		(instances
 			(project "MMS2_hat_template_small"
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/ec6d73af-72b0-4068-85fb-cca3c5143749"
-					(reference "#PWR038")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -4561,7 +4606,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dec7710a-2129-4361-8de7-cbfee13effc3")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR036"
 			(at 227.33 116.84 0)
 			(effects
 				(font
@@ -4611,7 +4656,7 @@
 		(instances
 			(project "MMS2_hat_template_small"
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/ec6d73af-72b0-4068-85fb-cca3c5143749"
-					(reference "#PWR037")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -4673,6 +4718,15 @@
 			)
 		)
 		(property "LCSC" "C469874"
+			(at 132.08 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 132.08 97.79 0)
 			(effects
 				(font
@@ -4935,6 +4989,15 @@
 			)
 		)
 		(property "Temperature Coefficient" "X7R"
+			(at 191.77 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 191.77 83.82 0)
 			(effects
 				(font

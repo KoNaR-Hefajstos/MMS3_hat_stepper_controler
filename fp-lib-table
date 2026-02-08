@@ -8,4 +8,5 @@
   (lib (name "PgndNetTie")(type "KiCad")(uri "${KIPRJMOD}/lib/kicad-footprints/PgndNetTie.pretty")(options "")(descr ""))
   (lib (name "QRcode")(type "KiCad")(uri "${KIPRJMOD}/lib/kicad-footprints/QRcode.pretty")(options "")(descr ""))
   (lib (name "SMC_MBRD10100CTTR")(type "KiCad")(uri "${KIPRJMOD}/lib/SMC_MBRD10100CTTR.pretty")(options "")(descr ""))
+  (lib (name "C49237947")(type "KiCad")(uri "${KIPRJMOD}/lib/C49237947.pretty")(options "")(descr ""))
 )

@@ -837,6 +837,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 115.57 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4f9e86f0-f5a3-42bc-a546-1752b980d17c")
 		)
@@ -861,7 +870,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2fe0878f-0a1a-4ca0-a3be-a432f630b775")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR041"
 			(at 181.61 88.9 0)
 			(effects
 				(font
@@ -911,7 +920,7 @@
 		(instances
 			(project "MMS2_hat_template_small"
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/f11c3b61-ae6a-4858-9d37-bbf426f44fb0"
-					(reference "#PWR042")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -979,6 +988,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 140.97 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1f0a0aa9-06c9-473b-a50e-daac96659fe6")
 		)
@@ -1003,7 +1021,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "482f3d78-37dc-49ed-95b2-aacea4eb394d")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR039"
 			(at 157.48 86.36 0)
 			(effects
 				(font
@@ -1053,7 +1071,7 @@
 		(instances
 			(project "MMS2_hat_template_small"
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/f11c3b61-ae6a-4858-9d37-bbf426f44fb0"
-					(reference "#PWR040")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -1069,7 +1087,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56178d53-5941-4ff4-88ef-3a95dbd0835f")
-		(property "Reference" "D4"
+		(property "Reference" "D2"
 			(at 172.7201 93.98 90)
 			(effects
 				(font
@@ -1123,6 +1141,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 171.45 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "beacdcef-dab0-4aa4-a7b4-658c02ef3eca")
 		)
@@ -1135,7 +1162,7 @@
 		(instances
 			(project "MMS3_hat_stepper_controler"
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/f11c3b61-ae6a-4858-9d37-bbf426f44fb0"
-					(reference "D4")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -1151,7 +1178,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eebdd2e0-7c94-4a1e-9d2e-c9e02d368a57")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR040"
 			(at 157.48 111.76 0)
 			(effects
 				(font
@@ -1201,7 +1228,7 @@
 		(instances
 			(project ""
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/f11c3b61-ae6a-4858-9d37-bbf426f44fb0"
-					(reference "#PWR041")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
