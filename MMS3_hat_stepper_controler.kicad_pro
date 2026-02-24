@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.62,
-          "width": 0.56
+          "height": 0.3,
+          "width": 0.3
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.2
+          "min_clearance": 0.1
         }
       },
       "diff_pair_dimensions": [
@@ -58,7 +58,48 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "items_not_allowed|169700000|90300000|6b0804c7-085d-47cf-beef-573f98413b4c|00000000-0000-0000-0000-000000000000",
+          "Tooling Hole"
+        ],
+        [
+          "items_not_allowed|79000000|137000000|dd646722-d3e7-41f5-a7ea-ea9dbc824b15|00000000-0000-0000-0000-000000000000",
+          "Tooling Hole"
+        ],
+        [
+          "items_not_allowed|85337849|89057177|245d250d-b957-41b8-9425-47da5c244020|00000000-0000-0000-0000-000000000000",
+          "Tooling Hole"
+        ],
+        [
+          "lib_footprint_mismatch|165000000|131250000|8e9d0206-f571-4ab4-9d3e-2c3d1e03bcb2|00000000-0000-0000-0000-000000000000",
+          "changed 3d model"
+        ],
+        [
+          "lib_footprint_mismatch|79000000|137000000|5db46fb9-0210-460a-bf0a-66a03f03b6bd|00000000-0000-0000-0000-000000000000",
+          "Tooling Hole"
+        ],
+        [
+          "lib_footprint_mismatch|85337849|89057177|d8de27a3-1cc5-47c4-b24b-38de7b876cf4|00000000-0000-0000-0000-000000000000",
+          "Tooling Hole"
+        ],
+        [
+          "track_dangling|144296406|114868903|34d957c2-6029-4593-80ae-97a0ae3bc22b|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "track_dangling|157800000|114863946|3da63719-66f4-4add-80cf-3609b6c63764|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "track_dangling|157900000|116875000|f7fd8794-0c50-4a19-a96e-423c0557174f|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "track_dangling|158364128|114788946|1d2e4dc1-479e-4553-90a7-078f13170c8d|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -221,6 +262,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.2
         }
       ],
       "zones_allow_external_fillets": false
@@ -510,7 +555,7 @@
         "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.12,
-        "via_diameter": 0.5,
+        "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
       },
@@ -587,6 +632,9 @@
         "50V "
       ],
       "/Stepper controller/OB2": [
+        "50V "
+      ],
+      "/Stepper controller/U_reg_after_jumper": [
         "50V "
       ],
       "Net-(D4-K)": [

@@ -209,6 +209,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_Polarized_Small"
 			(pin_numbers
 				(hide yes)
@@ -3686,6 +3793,12 @@
 		(uuid "9dffe029-d0b7-4deb-836e-6eb2f14b2aac")
 	)
 	(junction
+		(at 259.08 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a04d3d80-5ca9-4de4-a565-21b9f93e1d18")
+	)
+	(junction
 		(at 106.68 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3738,6 +3851,16 @@
 			(type default)
 		)
 		(uuid "01eaba92-21aa-4d83-9bf9-9c01b1a5aa41")
+	)
+	(wire
+		(pts
+			(xy 259.08 111.76) (xy 266.7 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "027f04e5-37ab-423d-bdc9-a54e175b911f")
 	)
 	(wire
 		(pts
@@ -4421,7 +4544,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 111.76) (xy 256.54 111.76)
+			(xy 250.19 111.76) (xy 259.08 111.76)
 		)
 		(stroke
 			(width 0)
@@ -4598,6 +4721,16 @@
 			(type default)
 		)
 		(uuid "dbbab9e0-e78e-43b5-9ddb-7357b104d5d6")
+	)
+	(wire
+		(pts
+			(xy 259.08 109.22) (xy 259.08 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e040bcf3-249f-47b4-ae65-5091b57c0cbd")
 	)
 	(wire
 		(pts
@@ -5677,7 +5810,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 256.54 111.76 270)
+		(at 266.7 111.76 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5687,7 +5820,7 @@
 		(fields_autoplaced yes)
 		(uuid "1b090056-fda1-484c-ae16-56ec054457ab")
 		(property "Reference" "#PWR090"
-			(at 252.73 111.76 0)
+			(at 262.89 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5696,7 +5829,7 @@
 			)
 		)
 		(property "Value" "U_reg"
-			(at 260.35 111.7599 90)
+			(at 270.51 111.7599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5705,7 +5838,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 256.54 111.76 0)
+			(at 266.7 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5714,7 +5847,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 111.76 0)
+			(at 266.7 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5723,7 +5856,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 256.54 111.76 0)
+			(at 266.7 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8218,6 +8351,73 @@
 			(project ""
 				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/c6fe6645-c1eb-4317-9e6f-134a73c9fa05"
 					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 259.08 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "78409fe1-a4b2-41cf-84ef-7d52fc3fa83b")
+		(property "Reference" "TP8"
+			(at 261.62 104.6479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 261.62 107.1879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 264.16 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 264.16 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 259.08 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "465a425d-0886-441b-9929-8199b55614df")
+		)
+		(instances
+			(project "MMS3_hat_stepper_controler"
+				(path "/6596548a-44e0-46d8-8624-fd71cf4a3e17/c6fe6645-c1eb-4317-9e6f-134a73c9fa05"
+					(reference "TP8")
 					(unit 1)
 				)
 			)
