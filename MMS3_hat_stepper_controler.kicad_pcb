@@ -1492,6 +1492,371 @@
 			)
 		)
 	)
+	(footprint "PCM_JLCPCB:R_0402"
+		(layer "F.Cu")
+		(uuid "10196fb6-12d0-47cc-b369-9123dcdc9c0b")
+		(at 153.5 103 180)
+		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+		(tags "resistor")
+		(property "Reference" "R19"
+			(at -1.05 -0.85 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "fb910042-f05e-479e-b865-2de7b07c92fe")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.15)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 0 0.2 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "02a0a31e-4e6f-4c22-8dcc-574d8dfb3a96")
+			(effects
+				(font
+					(size 0.25 0.25)
+					(thickness 0.04)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0402WGF1002TCE_C25744.pdf"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "512fef4e-519e-4c8e-8951-c94d8af82bf3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "62.5mW Thick Film Resistors 50V ±100ppm/°C ±1% 10kΩ 0402 Chip Resistor - Surface Mount ROHS"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "16c3c19b-5257-4b3c-b292-a79f56675b4f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "57b3cc7f-b971-43cc-b5e5-e91a34844722")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Stock" "24372091"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d74fbe22-95ee-4e4e-83af-11a18aeb4bc9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Price" "0.004USD"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4901ab76-cde4-4ea4-87c1-8855025c134d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Process" "SMT"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e91336af-72b9-4ee1-9b1d-0116abbbd361")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Minimum Qty" "20"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f5413617-2bf7-461b-b2e9-602c02f8586a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Attrition Qty" "10"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "95b9adec-57e4-47d6-b973-99a4d71ad5e7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3db1fa48-2d35-419a-9cf9-a27de97da20f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Category" "Resistors,Chip Resistor - Surface Mount"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9d8e8dd8-0257-4599-a282-c99f588a2178")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9419d0ee-93a1-4156-846f-1b7f39a92a8b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Part" "0402WGF1002TCE"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e29c978e-17d2-41eb-9754-05b517831a69")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Resistance" "10kΩ"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5e3488c4-165d-470c-8029-f0e308527f57")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Power(Watts)" "62.5mW"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0fcc986e-0154-4fe0-a3be-31b6a7b9f72a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Type" "Thick Film Resistors"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f2b438db-85fd-4a08-892c-04f4681501eb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Overload Voltage (Max)" "50V"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4cb80b9f-75db-487b-bd59-91037b0ed1e2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Operating Temperature Range" "-55°C~+155°C"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9811baa3-f6ce-477b-9fe2-50003f052f3a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Tolerance" "±1%"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f4fbc750-c1c2-4f80-b1b2-2a48def54534")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Temperature Coefficient" "±100ppm/°C"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6f7a296e-be33-411b-a1fb-087e7680ac2a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "R_*")
+		(path "/ec6d73af-72b0-4068-85fb-cca3c5143749/b6f3cf93-9b33-45c5-8f02-4ad1445dd162")
+		(sheetname "/Bus_switch/")
+		(sheetfile "Bus_switch.kicad_sch")
+		(solder_mask_margin 0.038)
+		(fp_line
+			(start 0.9 0.4)
+			(end -0.9 0.4)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "F.CrtYd")
+			(uuid "11bc429f-2b97-45b4-9568-8c4e1d18124e")
+		)
+		(fp_line
+			(start 0.9 -0.4)
+			(end 0.9 0.4)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "F.CrtYd")
+			(uuid "300c548f-d295-4f2a-ba47-ce8a5b15aedc")
+		)
+		(fp_line
+			(start -0.9 -0.4)
+			(end 0.9 -0.4)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "F.CrtYd")
+			(uuid "806fcc1c-7f57-43ff-9f88-d595ff23c17f")
+		)
+		(fp_line
+			(start -0.9 -0.4)
+			(end -0.9 0.4)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(layer "F.CrtYd")
+			(uuid "f7966888-a1b8-496c-891b-9b9de49b8f26")
+		)
+		(fp_rect
+			(start -0.53 -0.27)
+			(end 0.53 0.27)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "155eeb88-7a07-455f-983e-79e7c8778934")
+		)
+		(pad "1" smd roundrect
+			(at -0.5 0 180)
+			(size 0.56 0.62)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 5 "+3V3")
+			(pintype "passive")
+			(uuid "ace2bf05-dcc6-4d1c-8ac4-703558500454")
+		)
+		(pad "2" smd roundrect
+			(at 0.5 0 180)
+			(size 0.56 0.62)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net 21 "/Bus_switch/SEL1")
+			(pintype "passive")
+			(uuid "b686c92b-fd0d-415e-8983-6dfc23e505d4")
+		)
+		(embedded_fonts no)
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_CDFER_JLCPCB-Kicad-Library/JLCPCB.3dshapes/R_0402.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "SMC_MBRD10100CTTR:TO-252-3_L6.5-W5.8-P4.58-TL"
 		(layer "F.Cu")
 		(uuid "1164aeed-bbb7-4de1-8868-1d74035294d4")
@@ -3157,6 +3522,7 @@
 		(path "/c8ce61d0-35b4-429d-8aa1-236fd73ec981")
 		(sheetname "/")
 		(sheetfile "MMS3_hat_stepper_controler.kicad_sch")
+		(attr exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 2.35 0)
@@ -8530,7 +8896,7 @@
 		(sheetfile "Stepper_controller.kicad_sch")
 		(clearance 0.2)
 		(zone_connect 1)
-		(attr allow_soldermask_bridges)
+		(attr exclude_from_bom allow_soldermask_bridges)
 		(fp_rect
 			(start -1.225 -0.75)
 			(end 1.225 0.75)
@@ -12191,7 +12557,7 @@
 		(sheetfile "Stepper_controller.kicad_sch")
 		(clearance 0.2)
 		(zone_connect 1)
-		(attr allow_soldermask_bridges)
+		(attr exclude_from_bom allow_soldermask_bridges)
 		(fp_rect
 			(start -1.225 -0.75)
 			(end 1.225 0.75)
@@ -12850,7 +13216,7 @@
 		(sheetfile "Stepper_controller.kicad_sch")
 		(clearance 0.2)
 		(zone_connect 1)
-		(attr allow_soldermask_bridges)
+		(attr exclude_from_bom allow_soldermask_bridges)
 		(fp_rect
 			(start -1.225 -0.75)
 			(end 1.225 0.75)
@@ -13049,6 +13415,7 @@
 		(path "/e369863d-bba3-4aff-884c-34b02c21a0f8")
 		(sheetname "/")
 		(sheetfile "MMS3_hat_stepper_controler.kicad_sch")
+		(attr exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 2.7 0)
@@ -15951,6 +16318,7 @@
 		(path "/d844f707-7c17-4a2a-89f9-f3ab5a70692a")
 		(sheetname "/")
 		(sheetfile "MMS3_hat_stepper_controler.kicad_sch")
+		(attr exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 2.7 0)
@@ -16076,7 +16444,7 @@
 		(path "/ec6d73af-72b0-4068-85fb-cca3c5143749/163b7c4c-b59a-4b48-abe7-8b822478d8be")
 		(sheetname "/Bus_switch/")
 		(sheetfile "Bus_switch.kicad_sch")
-		(attr smd exclude_from_bom dnp)
+		(attr smd dnp)
 		(fp_line
 			(start 0.8 -0.735)
 			(end -1.485 -0.735)
@@ -16610,6 +16978,7 @@
 		(path "/3c0d1340-32b8-40ed-a067-5f7a90eb3ce7")
 		(sheetname "/")
 		(sheetfile "MMS3_hat_stepper_controler.kicad_sch")
+		(attr exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 2.7 0)
@@ -18543,6 +18912,7 @@
 		(path "/bacc9794-7325-4356-adf3-87765f583942")
 		(sheetname "/")
 		(sheetfile "MMS3_hat_stepper_controler.kicad_sch")
+		(attr exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 2.7 0)
@@ -28834,6 +29204,7 @@
 		(path "/897b36dc-5e00-4781-9695-f9572ec770d3")
 		(sheetname "/")
 		(sheetfile "MMS3_hat_stepper_controler.kicad_sch")
+		(attr exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 2.7 0)
@@ -29966,7 +30337,7 @@
 		(sheetname "/Stepper controller/")
 		(sheetfile "Stepper_controller.kicad_sch")
 		(solder_mask_margin 0.038)
-		(attr smd exclude_from_bom dnp)
+		(attr smd dnp)
 		(fp_line
 			(start -3.66 2.15)
 			(end 2.15 2.15)
@@ -34599,7 +34970,7 @@
 			(uuid "3dd94457-4abd-45bd-9c67-a481873bbb62")
 		)
 		(fp_text user "JLCJLCJLCJLC"
-			(at 0 0 -0)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "caa2f11f-6e22-4545-b20a-729206269bcc")
@@ -34611,7 +34982,7 @@
 					(bold yes)
 				)
 			)
-			(render_cache "JLCJLCJLCJLC" -0
+			(render_cache "JLCJLCJLCJLC" 0
 				(polygon
 					(pts
 						(xy 84.493961 136.678538) (xy 84.657177 136.678538) (xy 84.657177 137.188322) (xy 84.654793 137.25548)
@@ -39330,6 +39701,14 @@
 		(uuid "58648d4a-dd2f-4187-a568-600b7d7c84b7")
 	)
 	(segment
+		(start 154.010432 103.010432)
+		(end 154 103)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 5)
+		(uuid "59806fa9-6dd6-4552-a1e8-dd89e82bb691")
+	)
+	(segment
 		(start 147.9375 107)
 		(end 147.875 107.0625)
 		(width 0.3)
@@ -39352,6 +39731,14 @@
 		(layer "F.Cu")
 		(net 5)
 		(uuid "74707db4-924f-47e7-84cd-516277d8f2a2")
+	)
+	(segment
+		(start 155.779568 103.010432)
+		(end 158.79 100)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 5)
+		(uuid "74995c72-0aa6-4263-b173-f1e6fea23bf8")
 	)
 	(segment
 		(start 157.75 96.65)
@@ -39384,6 +39771,14 @@
 		(layer "F.Cu")
 		(net 5)
 		(uuid "c0eb5e55-0023-4987-9722-e4bdb0e55f27")
+	)
+	(segment
+		(start 155.779568 103.010432)
+		(end 154.010432 103.010432)
+		(width 0.3)
+		(layer "F.Cu")
+		(net 5)
+		(uuid "c1d19168-dedb-401e-b534-ea64f3df58fe")
 	)
 	(segment
 		(start 164.78 93.75)
@@ -40266,6 +40661,22 @@
 		(uuid "1be09794-779b-42bc-a5b9-675c780d6ecf")
 	)
 	(segment
+		(start 153 103)
+		(end 152.920999 103.079001)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 21)
+		(uuid "241add12-5ea0-432f-bfdf-64c5575ac646")
+	)
+	(segment
+		(start 152.920999 103.079001)
+		(end 151.920999 103.079001)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 21)
+		(uuid "2525a524-6b54-4029-ba21-01b7f91934c5")
+	)
+	(segment
 		(start 141.601 105.099)
 		(end 146.799 105.099)
 		(width 0.2)
@@ -40290,6 +40701,14 @@
 		(uuid "9616441c-8195-49e3-b4a3-8806ebeb42ba")
 	)
 	(segment
+		(start 151.920999 103.079001)
+		(end 150.741999 101.9)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 21)
+		(uuid "a491b927-d0f5-439f-85dd-4a887ab0bfc1")
+	)
+	(segment
 		(start 173.6 101.6)
 		(end 169.5 105.7)
 		(width 0.2)
@@ -40307,7 +40726,7 @@
 	)
 	(segment
 		(start 154.541999 105.7)
-		(end 150.741999 101.9)
+		(end 151.920999 103.079001)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 21)
