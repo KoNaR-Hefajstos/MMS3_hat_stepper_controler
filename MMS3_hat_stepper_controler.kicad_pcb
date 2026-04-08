@@ -12442,7 +12442,7 @@
 	(footprint "PCM_JLCPCB:Hole_Tooling_JLCPCB"
 		(layer "F.Cu")
 		(uuid "5db46fb9-0210-460a-bf0a-66a03f03b6bd")
-		(at 79 137)
+		(at 88 136.828427)
 		(property "Reference" "H7"
 			(at 0 -0.5 0)
 			(unlocked yes)
@@ -12572,7 +12572,7 @@
 			)
 			(polygon
 				(pts
-					(xy 78 136) (xy 80 136) (xy 80 138) (xy 78 138)
+					(xy 87 135.828427) (xy 89 135.828427) (xy 89 137.828427) (xy 87 137.828427)
 				)
 			)
 		)
