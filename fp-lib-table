@@ -10,4 +10,5 @@
   (lib (name "SMC_MBRD10100CTTR")(type "KiCad")(uri "${KIPRJMOD}/lib/SMC_MBRD10100CTTR.pretty")(options "")(descr ""))
   (lib (name "C49237947")(type "KiCad")(uri "${KIPRJMOD}/lib/C49237947.pretty")(options "")(descr ""))
   (lib (name "Photo")(type "KiCad")(uri "${KIPRJMOD}/lib/Photo.pretty")(options "")(descr ""))
+  (lib (name "SS510C")(type "KiCad")(uri "${KIPRJMOD}/lib/SS510C.pretty")(options "")(descr ""))
 )

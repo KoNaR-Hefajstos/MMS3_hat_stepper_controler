@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "LMR51625")(type "KiCad")(uri "${KIPRJMOD}/lib/kicad-symbols/LMR51625.kicad_sym")(options "")(descr ""))
   (lib (name "SMC_MBRD10100CTTR")(type "KiCad")(uri "${KIPRJMOD}/lib/SMC_MBRD10100CTTR.kicad_sym")(options "")(descr ""))
+  (lib (name "SS510C")(type "KiCad")(uri "${KIPRJMOD}/lib/SS510C.kicad_sym")(options "")(descr ""))
 )

@@ -1,4 +1,4 @@
-25828833473967113
+25830615424993062
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -94646,6 +94646,13 @@ TO-252-3_L6.5-W5.8-P4.58-TL
 0
 3
 3
+SS510C
+SMC_L7.1-W6.2-LS8.1-RD
+
+
+0
+2
+2
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
