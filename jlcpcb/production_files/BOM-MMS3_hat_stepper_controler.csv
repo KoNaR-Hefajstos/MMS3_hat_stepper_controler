@@ -29,6 +29,7 @@ SW_DIP_x04,SW1,SW_DIP_SPSTx04_Slide_6.7x11.72mm_W7.62mm_P2.54mm_LowProfile,C2317
 TMC5130A-TA,U3,TQFP-48-1EP_7x7mm_P0.5mm_EP5x5mm_ThermalVias,C188832,1
 TestPoint,TP4,TestPoint_Pad_D1.0mm,,1
 TestPoint,TP1,TestPoint_Pad_D1.0mm,,1
+16.5k,R14,R_0402,,1
 Chainbus Out,J2,PinSocket_2x16_P2.54mm_Vertical_SMD,,1
 TestPoint,TP7,TestPoint_Pad_D1.0mm,,1
 ~,H8,Hole_Tooling_JLCPCB,,1
@@ -38,11 +39,10 @@ TestPoint,TP6,TestPoint_Pad_D1.0mm,,1
 TestPoint,TP8,TestPoint_Pad_D1.0mm,,1
 TestPoint,TP5,TestPoint_Pad_D1.0mm,,1
 100K TRIM,RV1,Potentiometer_Bourns_3296W_Vertical,,1
-Encoder connector,J6,JST_XH_S3B-XH-A-1_1x03_P2.50mm_Horizontal,,1
 Conn_01x03_Pin,J8,PinHeader_1x03_P2.54mm_Vertical,,1
+Encoder connector,J6,JST_XH_S3B-XH-A-1_1x03_P2.50mm_Horizontal,,1
 TestPoint,TP2,TestPoint_Pad_D1.0mm,,1
 ~,H9,Hole_Tooling_JLCPCB,,1
-16.5k,R14,R_0402,,1
 Motor connector,J7,JST_XH_S4B-XH-A_1x04_P2.50mm_Horizontal,,1
 TestPoint,TP3,TestPoint_Pad_D1.0mm,,1
 Chainbus in,J1,PinHeader_2x16_P2.54mm_Vertical_SMD,,1
