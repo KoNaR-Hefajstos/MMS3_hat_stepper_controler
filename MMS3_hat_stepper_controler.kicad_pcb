@@ -2660,7 +2660,7 @@
 		(path "/c8ce61d0-35b4-429d-8aa1-236fd73ec981")
 		(sheetname "/")
 		(sheetfile "MMS3_hat_stepper_controler.kicad_sch")
-		(attr exclude_from_bom)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -5924,7 +5924,7 @@
 		(path "/f11c3b61-ae6a-4858-9d37-bbf426f44fb0/0ff6488c-dd9e-444f-afe8-242c0dfa59ef")
 		(sheetname "/Power Connector/")
 		(sheetfile "Power_Connector.kicad_sch")
-		(attr through_hole exclude_from_bom)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 11.46 -16.46)
@@ -7665,7 +7665,7 @@
 		(path "/fdb595ff-e94b-4e80-8fe7-e7d367588ab2/6261b855-1184-4e82-82fb-fce65cc65719")
 		(sheetname "/Interboard_connector/")
 		(sheetfile "Interboard_connector.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 2.6 -20.38)
@@ -9459,7 +9459,7 @@
 		(sheetname "/Stepper controller/")
 		(sheetfile "Stepper_controller.kicad_sch")
 		(zone_connect 1)
-		(attr exclude_from_bom allow_soldermask_bridges)
+		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.225 -0.75)
@@ -10670,6 +10670,7 @@
 		(path "/7270eaa3-20e4-4c0f-ace2-dafd79c81abc")
 		(sheetname "/")
 		(sheetfile "MMS3_hat_stepper_controler.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_text user "${REFERENCE}"
 			(at 0 2.5 0)
@@ -10817,7 +10818,7 @@
 		(path "/ec6d73af-72b0-4068-85fb-cca3c5143749/2bdc2f2f-2e7c-4725-b021-3d1ad96d19cc")
 		(sheetname "/Bus_switch/")
 		(sheetfile "Bus_switch.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.38 -1.38)
@@ -11575,6 +11576,7 @@
 		(path "/048316d6-a057-4ba2-83ef-068bb9533692")
 		(sheetname "/")
 		(sheetfile "MMS3_hat_stepper_controler.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_text user "${REFERENCE}"
 			(at 0 2.5 0)
@@ -13442,7 +13444,7 @@
 		(sheetname "/Stepper controller/")
 		(sheetfile "Stepper_controller.kicad_sch")
 		(zone_connect 1)
-		(attr exclude_from_bom allow_soldermask_bridges)
+		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.225 -0.75)
@@ -13669,7 +13671,7 @@
 		(path "/f11c3b61-ae6a-4858-9d37-bbf426f44fb0/3b4bf1a3-9299-4a0f-a632-011cd216f9dc")
 		(sheetname "/Power Connector/")
 		(sheetfile "Power_Connector.kicad_sch")
-		(attr through_hole exclude_from_bom)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 4.26 -7.76)
@@ -14519,7 +14521,7 @@
 		(sheetname "/Stepper controller/")
 		(sheetfile "Stepper_controller.kicad_sch")
 		(zone_connect 1)
-		(attr exclude_from_bom allow_soldermask_bridges)
+		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
 			(start -1.225 -0.75)
@@ -15047,7 +15049,7 @@
 		(path "/e369863d-bba3-4aff-884c-34b02c21a0f8")
 		(sheetname "/")
 		(sheetfile "MMS3_hat_stepper_controler.kicad_sch")
-		(attr exclude_from_bom)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -17434,7 +17436,7 @@
 		(path "/d844f707-7c17-4a2a-89f9-f3ab5a70692a")
 		(sheetname "/")
 		(sheetfile "MMS3_hat_stepper_controler.kicad_sch")
-		(attr exclude_from_bom)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -18037,7 +18039,7 @@
 		(path "/c6fe6645-c1eb-4317-9e6f-134a73c9fa05/7a0f0309-6b85-4bb3-b11d-563ee6efcfb5")
 		(sheetname "/Buck Regulator/")
 		(sheetfile "Switching_power_supply.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -1.38 -1.38)
@@ -19131,7 +19133,7 @@
 		(path "/3c0d1340-32b8-40ed-a067-5f7a90eb3ce7")
 		(sheetname "/")
 		(sheetfile "MMS3_hat_stepper_controler.kicad_sch")
-		(attr exclude_from_bom)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -20408,7 +20410,7 @@
 		(path "/bacc9794-7325-4356-adf3-87765f583942")
 		(sheetname "/")
 		(sheetfile "MMS3_hat_stepper_controler.kicad_sch")
-		(attr exclude_from_bom)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -20533,7 +20535,7 @@
 		(path "/08d7247e-6849-4d2d-9ddf-0299da50b957/611da902-dab0-473c-8f3e-9c80e2863b53")
 		(sheetname "/Stepper controller/")
 		(sheetfile "Stepper_controller.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -2.56 -4.01)
@@ -24782,6 +24784,7 @@
 		(path "/9671361b-3b51-4845-94d6-a4d8cdb90b14")
 		(sheetname "/")
 		(sheetfile "MMS3_hat_stepper_controler.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_text user "${REFERENCE}"
 			(at 0 2.5 0)
@@ -26660,7 +26663,7 @@
 		(sheetname "/Bus_switch/")
 		(sheetfile "Bus_switch.kicad_sch")
 		(solder_mask_margin 0.038)
-		(attr exclude_from_bom dnp)
+		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 0.9 -0.4)
@@ -28328,7 +28331,7 @@
 		(path "/08d7247e-6849-4d2d-9ddf-0299da50b957/6892956a-eac9-4aef-8462-fabfd5b3a2b8")
 		(sheetname "/Stepper controller/")
 		(sheetfile "Stepper_controller.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -2.56 -2.41)
@@ -29722,7 +29725,7 @@
 		(path "/897b36dc-5e00-4781-9695-f9572ec770d3")
 		(sheetname "/")
 		(sheetfile "MMS3_hat_stepper_controler.kicad_sch")
-		(attr exclude_from_bom)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -31623,7 +31626,7 @@
 		(path "/fdb595ff-e94b-4e80-8fe7-e7d367588ab2/77c72888-0b70-4ff6-9cf0-f0d23565b240")
 		(sheetname "/Interboard_connector/")
 		(sheetfile "Interboard_connector.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start -2.65 20.43)

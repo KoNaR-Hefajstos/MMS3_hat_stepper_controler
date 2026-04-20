@@ -28,26 +28,6 @@ D5,SS510C,SMC_L7.1-W6.2-LS8.1-RD,127.0,-134.6,180.0,top
 D6,SS510C,SMC_L7.1-W6.2-LS8.1-RD,120.5,-123.1,180.0,top
 D7,Red,D_0603,175.333662,-101.427037,90.0,top
 D8,SS510C,SMC_L7.1-W6.2-LS8.1-RD,129.0,-125.3,-90.0,top
-H1,M2.5 Mount,MountingHole_2.7mm_M2.5_DIN965_Pad_TopOnly,82.0,-134.0,0.0,top
-H2,M2.5 mount,MountingHole_2.7mm_M2.5,174.0,-134.0,0.0,top
-H3,M2.5 mount,MountingHole_2.7mm_M2.5,82.0,-92.0,0.0,top
-H4,M2.5 mount,MountingHole_2.7mm_M2.5,174.0,-92.0,0.0,top
-H5,M2.5 mount,MountingHole_2.7mm_M2.5,103.0,-94.0,0.0,top
-H6,M2.5 mount,MountingHole_2.7mm_M2.5,153.0,-94.0,0.0,top
-H7,~,Hole_Tooling_JLCPCB,79.1,-137.0,0.0,top
-H8,~,Hole_Tooling_JLCPCB,169.7,-90.3,0.0,top
-H9,~,Hole_Tooling_JLCPCB,79.0,-89.0,0.0,top
-J1,Chainbus in,PinHeader_2x16_P2.54mm_Vertical_SMD,127.99,-95.538272,270.0,bottom
-J2,Chainbus Out,PinSocket_2x16_P2.54mm_Vertical_SMD,128.0,-95.558272,90.0,top
-J3,Conn_01x04_Pin,PinHeader_1x04_P2.54mm_Vertical,154.98,-100.0,90.0,top
-J4,AMASS XT60 Male,AMASS_XT60PW-M_1x02_P7.20mm_Horizontal,94.8,-132.825,180.0,top
-J5,AMASS XT60 Female,AMASS_XT60PW-F_1x02_P7.20mm_Horizontal,111.5,-132.825,180.0,top
-J6,Encoder connector,JST_XH_S3B-XH-A-1_1x03_P2.50mm_Horizontal,163.5,-135.35,0.0,top
-J7,Motor connector,JST_XH_S4B-XH-A_1x04_P2.50mm_Horizontal,150.25,-133.655,0.0,top
-J8,Conn_01x03_Pin,PinHeader_1x03_P2.54mm_Vertical,113.2,-122.4,0.0,top
-JP1,SolderJumper_2_Open,SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm,128.7,-105.7,0.0,top
-JP2,SolderJumper_2_Open,SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm,128.7,-108.23,0.0,top
-JP3,SolderJumper_2_Open,SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm,128.735,-110.8,0.0,top
 L1,100uH 4A,L_Sunlord_SWRB1207S,91.6,-102.6,90.0,top
 R1,10kΩ,R_0402,153.7,-110.6,180.0,top
 R10,33kΩ,R_0402,111.3,-117.4,0.0,top
