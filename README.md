@@ -1,4 +1,6 @@
-# Dokumentacja Hat'a: Sterownik silnika krokowego TMC5130A z przetwornicą Buck
+# Hat Sterownik silnika krokowego TMC5130A z przetwornicą Buck
+
+![zdjecie hata](hat_image.png)
 
 ## Sekcja 1: Dokumentacja Hat'a
 
